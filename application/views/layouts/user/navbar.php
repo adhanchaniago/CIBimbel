@@ -30,7 +30,7 @@
         <a href="#" class="nav-link"> Profil</a>
        </li>
        <li class="nav-item">
-        <a href="#" class="nav-link text-danger"> Log Out</a>
+        <a href="<?php echo base_url()?>user/login/logout" class="nav-link text-danger"> Log Out</a>
        </li>
     </ul>
     
