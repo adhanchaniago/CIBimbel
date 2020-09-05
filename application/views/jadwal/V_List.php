@@ -25,10 +25,16 @@
     <!-- /.content-header -->
 
     <section class="content">
+
       <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         <i class="fa fa-plus"></i>
         Tambah Jadwal Bimbel
       </button>
+
+      <a href="<?php echo base_url('C_Jadwal/pdf')?>" class="btn btn-warning text-white">
+      <i class="fa fa-file"> Export PDF</i>
+      </a>
+
       <div class="mb-3"></div>
         <table class="table">
         <tr>
