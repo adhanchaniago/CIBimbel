@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>User Login Page</title>
+	<title>Admin Login Page</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -33,9 +33,9 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-90 p-b-30">
-				<form class="login100-form validate-form" action="<?php echo base_url('user/login') ?>" method="post">
+				<form class="login100-form validate-form" action="<?php echo base_url('login') ?>" method="post">
 					<span class="login100-form-title p-b-40">
-						Login Sistem Informasi Bimbel Neuron Yogyakarta
+						Login Sistem Informasi Bimbel Neuron Yogyakarta (ADMIN)
           </span>
           <?php 
           	if($this->session->flashdata('sukses')) {
@@ -44,8 +44,8 @@
             echo validation_errors('<p class="text-warning" style="margin: 10px 20px;">','</p>');
           ?>          
           
-					<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter email: ex@abc.xyz">
-						<input class="input100" type="text" name="email" placeholder="Email">
+					<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter id_admin: ex@abc.xyz">
+						<input class="input100" type="text" name="id_admin" placeholder="ID Admin">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -65,10 +65,10 @@
 					
 					<div class="flex-col-c p-t-224">
 						<span class="txt2 p-b-10">
-							Atau Login Untuk Admin 
+							Atau Login Untuk User? 
 						</span>
 
-						<a href="<?php echo base_url() ?>login" class="txt3 bo1 hov1">
+						<a href="<?php echo base_url() ?>/user/login" class="txt3 bo1 hov1">
 							Di sini!
 						</a>
 					</div>
