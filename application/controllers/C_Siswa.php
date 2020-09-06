@@ -81,10 +81,6 @@ class C_Siswa extends CI_Controller {
         $this->M_Siswa->update_data($where,$data,'siswa'); 
         redirect('C_Siswa/index');
     }
-
-
-
-
     
 }
 

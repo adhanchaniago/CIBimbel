@@ -24,10 +24,10 @@
     
     <ul class="navbar-nav ml-auto" >
       <li class="nav-item">
-        <p class="mt-2">Hai (Nama Siswa Neuron) </p>
+        <p class="mt-2">Hai <?php echo ($this->session->userdata('email')); ?> </p>
       </li>
        <li class="nav-item">
-        <a href="#" class="nav-link"> Profil</a>
+        <a href="<?php echo base_url()?>user/C_Profil/get_data/<?php echo($this->session->userdata('id')) ?>" class="nav-link"> Profil</a>
        </li>
        <li class="nav-item">
         <a href="<?php echo base_url()?>user/login/logout" class="nav-link text-danger"> Log Out</a>
