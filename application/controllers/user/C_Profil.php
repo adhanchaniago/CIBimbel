@@ -1,6 +1,7 @@
 <?php 
 
     class C_Profil extends CI_Controller {
+        
         public function index() {   
             $this->load->model(array('user/M_Profil'));
 

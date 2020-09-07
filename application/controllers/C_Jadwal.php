@@ -18,7 +18,7 @@
             $jam_mulai               = $this->input->post('jam_mulai');
             $jam_sls                 = $this->input->post('jam_sls');
             
-    
+                // INI COmentt...
             $data = array(
     
                 'id_kelas'    => $id_kelas,

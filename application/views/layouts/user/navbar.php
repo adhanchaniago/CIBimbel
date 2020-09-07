@@ -15,10 +15,10 @@
         <a class="nav-link" href="<?php echo base_url()?>user/Dashboard">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Jadwal</a>
+        <a class="nav-link" href="<?php echo base_url() ?>user/C_Jadwal">Jadwal</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Kontak</a>
+        <a class="nav-link" href="<?php echo base_url() ?>user/C_Kontak">Kontak</a>
       </li>
     </ul>
     
